@@ -23,7 +23,7 @@ headline_template = PromptTemplate(
 
 ad_copy_template = PromptTemplate(
         input_variables = ['headline', 'wikipedia_research'],
-        template='write an ad copy in less than 100 words based on this headline HEADLINE: {headline} while levceraging this wikipedia research:{wikipedia_research}'
+        template='write an ad copy in less than 100 words based on this headline HEADLINE: {headline} while leveraging this wikipedia research:{wikipedia_research}'
 )
 
 # Memory
